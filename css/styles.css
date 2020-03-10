@@ -1,19 +1,42 @@
 html {
     box-sizing: border-box;
+    background-color: #f1f1f1;
   }
+
   *,
   *:before,
   *:after {
     box-sizing: inherit;
   }
+ ul {
+      list-style-type: none;
+  }
 
+  .logo {
+      color: #242a43;
+      font-family: 'Amatic SC', cursive;
+      font-size: 75px;
+      margin: 20px;
+
+  }
+
+  a {
+      text-decoration: none;
+      color: #242a43;
+  }
+
+.sidebar {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    text-align: center;
+    border-bottom: 1px solid #242a43;
+}
   .container {
-
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
-
-  }  
+  }
 
   .responsive-image {
     max-width: 100%;
@@ -23,21 +46,21 @@ html {
     margin: 1rem;
   }
 
-  @media screen and (min-width: 600px) {
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-    }
-    .cell {
-        width: calc(50% - 2rem);
-    }
+  #primary {
+    float: left;
+    width: 63%;
+  }
+  aside {
+    float: right;
+    width: 35%;
   }
 
-  @media screen and (min-width: 1000px) {
-    .cell {
-        width: calc(33.3333% - 2rem);
-    }
+  footer {
+    clear: both;
+    margin-bottom: 0;
+    background-color: #242a43;
   }
+
+ 
 
  

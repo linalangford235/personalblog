@@ -1,0 +1,18 @@
+li > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+li > a:hover  {
+    color: #c3b3bc;
+}
+
+nav {
+    margin-top: 5%;
+}
+
+hr {
+     border: 1px solid #242a43;
+}
