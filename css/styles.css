@@ -77,12 +77,21 @@ html {
 }
 
 .icon {
-  max-width: 15%;
+  max-width: 10%;
   margin: 5px;
   display: inline-block;
 }
 
 .icon-link:hover {
+  text-decoration: none;
+}
+
+.icon-link-footer {
+  width: 40px;
+  margin: 25px;
+}
+
+.icon-link-footer:hover {
   text-decoration: none;
 }
 
@@ -113,6 +122,16 @@ html {
     clear: both;
     margin-bottom: 0;
     background-color: #242a43;
+  }
+
+  .footer-line {
+    border-bottom: 1px solid white;
+  }
+
+  .copyright {
+    text-align: center;
+    color: white;
+    font-family: 'Courgette', cursive;
   }
 
  
