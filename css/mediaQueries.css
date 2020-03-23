@@ -3,6 +3,9 @@
         margin: 5% 15%;
         justify-content: center;;
     }
+    ol {
+        padding-left: 20%;
+    }
 }
 
 @media screen and (max-width: 800px) {
