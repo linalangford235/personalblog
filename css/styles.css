@@ -25,10 +25,6 @@ ol li::before {
   color:#DDA15E;
 }
 
-ol li::before:hover {
-  text-decoration: none;
-}
-
 html {
     box-sizing: border-box;
     background-color: #f1f1f1;
@@ -41,6 +37,18 @@ html {
   }
  ul {
       list-style-type: none;
+  }
+
+  .written-by {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin: 10px;
+    color: #DDA15E;
+  }
+
+  .date {
+    font-family: 'Courgette', cursive;
+    color: #242a43;
   }
 
   .logo {
