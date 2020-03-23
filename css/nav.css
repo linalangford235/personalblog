@@ -6,7 +6,7 @@ li > a {
 }
 
 li > a:hover  {
-    color: #c3b3bc;
+    color: #DDA15E;
 }
 
 nav {
@@ -14,5 +14,5 @@ nav {
 }
 
 hr {
-     border: 1px solid #242a43;
+     border: 1px solid #DDA15E;
 }
