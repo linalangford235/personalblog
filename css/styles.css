@@ -2,31 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
-ol {
-  list-style: none;
-  counter-reset: counter;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-}
-ol li {
-  counter-increment: counter;
-  display: flex;
-  width: 100%;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-ol li::before {
-  content: "0" counter(counter);
-  font-weight: bold;
-  font-size: 3rem;
-  margin-right: 1rem;
-  font-family: 'Abril Fatface', serif;
-  line-height: 1;
-  color:#DDA15E;
-}
-
 html {
     box-sizing: border-box;
     background-color: #f1f1f1;
@@ -41,11 +16,42 @@ html {
       list-style-type: none;
   }
 
+  ol {
+    list-style: none;
+    counter-reset: counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  ol li {
+    counter-increment: counter;
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  ol li::before {
+    content: "0" counter(counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 1rem;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
+    color:#DDA15E;
+  }
+
   .written-by {
     font-family: 'Courgette', cursive;
     font-size: 20px;
     margin: 10px;
     color: #DDA15E;
+  }
+
+  .paragraph-text {
+    color: #242a43;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .date {
@@ -56,8 +62,12 @@ html {
   .logo {
       color: #242a43;
       font-family: 'Amatic SC', cursive;
-      font-size: 75px;
+      font-size: 85px;
       margin: 20px;
+  }
+
+  .logo:hover {
+    text-decoration: none;
   }
 
   a {
