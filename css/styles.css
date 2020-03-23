@@ -37,6 +37,16 @@ html {
     border-bottom: 1.5px solid #DDA15E;
 }
 
+.icon {
+  max-width: 15%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.icon-link:hover {
+  text-decoration: none;
+}
+
   .container {
     flex-direction: row;
     display: flex;
