@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 ol {
   list-style: none;
@@ -103,6 +105,13 @@ html {
 
   .responsive-image {
     max-width: 95%;
+  }
+
+  .img-caption {
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #DDA15E;
   }
 
   .cell {
